@@ -1,2 +1,3 @@
-const { newBasketStartsEmpty } = require("./test-framework.js");
+const { newBasketStartsEmpty } = require("./baskettest");
+
 newBasketStartsEmpty();

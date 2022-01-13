@@ -1,4 +1,5 @@
 const { assertEquals } = require("./test-framework");
+const { Basket } = require(`../src/basket`);
 
 const newBasketStartsEmpty = () => {
   //identify
@@ -8,7 +9,7 @@ const newBasketStartsEmpty = () => {
   let expected = 0;
 
   // 2. act
-  let actual = new Basket().items.length;
+  let actual = input.items.length;
 
   // 3. assert
   let result = assertEquals(actual, expected);

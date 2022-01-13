@@ -3,3 +3,6 @@ class Basket {
     this.items = [];
   }
 }
+
+
+module.exports = { Basket };
